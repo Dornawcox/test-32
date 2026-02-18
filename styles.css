@@ -1020,6 +1020,15 @@ h3{font-size: 22px; margin:0 0 10px 0;}
   .wg-pill{white-space:normal !important;}
 }
 
+/* High-contrast nominate bubble (library) */
+.nominate-bubble-contrast{
+  background:#ffffff !important;
+  border:2px solid rgba(0,70,40,0.35) !important;
+  color:#0b1b12 !important;
+}
+.nominate-bubble-contrast *{color:#0b1b12 !important;}
+.nominate-bubble-contrast a{color:#0b1b12 !important;text-decoration:underline;font-weight:900;}
+
 /* Rail filters */
 .rail-filters{margin:10px 0 14px 0;}
 .filter-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
